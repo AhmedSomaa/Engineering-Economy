@@ -75,19 +75,18 @@ aw_1 = __getAnnualWorth(MARR, 10, -1*pw_1)
 aw_2 = __getAnnualWorth(MARR, 10, -1*pw_2)
 
 # plot the CFD of each alternative
-y = [0,1,2,3,4,5,6,7,8,9,10]
+x_axis = [0,1,2,3,4,5,6,7,8,9,10]
 plt.figure()
-plt.hist(y, bins=10,weights =data_1, histtype='bar', color = 'r', ec='black')
-plt.xticks(y)
+plt.hist(x_axis, bins=10,weights =data_1, histtype='bar', color = 'r', ec='black')
+plt.xticks(x_axis)
 
 plt.title('Alternative 1:Cash Flow')
 plt.xlabel('Years')
 plt.ylabel('Value')
 
 plt.figure()
-y = [0,1,2,3,4,5,6,7,8,9,10]
-plt.hist(y, bins=10, weights = data_2, histtype='bar', color = 'r', ec='black')
-plt.xticks(y)
+plt.hist(x_axis, bins=10, weights = data_2, histtype='bar', color = 'r', ec='black')
+plt.xticks(x_axis)
 
 plt.title('Alternative 2:Cash Flow')
 plt.xlabel('Years')
