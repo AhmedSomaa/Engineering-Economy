@@ -2,18 +2,15 @@
 
 Engineering Economy Ranking and IRR Methods Analysis
 
-## Project Description
+## Project Description & Features
 
-The project performs the Ranking and IRR methods analysis for two different cashflows given in the directory <../data>.
-The project also reads the MARR value from the user and then computes the following:
+The Project performs the Ranking Methods {[present worth analysis], [future worth analysis], [annual worth analysis]}, and the IRR [Internal Rate of Return] for a given project.
 
-1. Present Worth of the two cash flows.
-2. Future Worth of the two cash flows.
-3. Annual Worth of the two cash flows.
-4. Internal Rate of Return for each cash flows.
+The project has three main features:
+1. The project plots the Cash Flow Diagram for each Alternative Data, you can update the data in the files in the directory <../data>.
+2. The project performs the ranking methods mentioned above and IRR.
+3. The project gives a conclusion about the recommended alternative to go for.
 
-Then, it compares the two values of the present worth, and returns the recommendation for the best investment choice...
-The same is done for the rest of the 
 ### Prerequisites
 
 you need install the following dependencies: 
