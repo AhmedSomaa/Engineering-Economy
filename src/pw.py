@@ -36,7 +36,6 @@ def __getAnnualWorth(MARR, nper, pv):
 def __getIRR(mylist):
 	return np.irr(mylist)
 
-
 ############################################################
 # __compare:: return the greatest value of two
 ############################################################
@@ -47,11 +46,10 @@ def __compare(val_1, val_2):
 	else:
 		return 0
 
-
 ############################################################
 # main:: Engineering Economy Project
-# assumption: Cash flows are the same length
-# assumption: EOY
+# assumption 1: Cash flows are of the same length
+# assumption 2: End of Year
 ############################################################
 print('============================================================')
 print('                Engineering Economy: Project')
