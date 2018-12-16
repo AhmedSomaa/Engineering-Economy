@@ -35,7 +35,7 @@ pip installation
 
 ```
 $ sudo apt update
-$ sudo apt install python-pip
+$ sudo apt install python3-pip
 ```
 
 numpy installation
@@ -55,5 +55,5 @@ $ sudo apt install python3-matplotlib
 
 run the file project.py in the directory <../src>
 ```
-$ python project.py
+$ python3 project.py
 ```
